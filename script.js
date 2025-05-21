@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 2 vidéos
     {
       type: 'video',
-      src: 'media/video1.mp4',
+      src: 'images/video1.mp4',
       message: 'Un instant magique 🎥'
     },
     {
