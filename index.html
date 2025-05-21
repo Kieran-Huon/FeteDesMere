@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bonne fête maman ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title"><span class="animated-text">Bonne fête maman ❤️</span></h1>
+    <blockquote>“L’amour d’une mère est le carburant qui permet à un être humain de faire l’impossible.”</blockquote>
+    <button id="revealBtn">Clique ici pour une surprise</button>
+
+    <div id="gallery" class="hidden">
+      <div class="photo">
+        <img src="images/image2.jpg" alt="Souvenir 1" />
+        <p>Merci pour tout ton amour 💖🌷</p>
+      </div>
+      <div class="photo">
+        <img src="images/photo2.jpg" alt="Souvenir 2" />
+        <p>Chaque moment avec toi est précieux ✨🌸</p>
+      </div>
+    </div>
+
+    <!-- Ciel étoilé avec étoiles dynamiques -->
+    <div id="starSky" class="hidden"></div>
+
+    <!-- Popup -->
+    <div id="popup" class="popup hidden">
+      <div class="popup-content">
+        <span id="popupClose">×</span>
+        <div id="popupMedia"></div>
+        <p id="popupText"></p>
+      </div>
+    </div>
+
+
+    <audio id="bgMusic" loop>
+      <source src="media/musique.mp3" type="audio/mpeg" />
+    </audio>
+
+    <button id="toggleMusic">🔊</button>
+
+    <!-- Popup -->
+    <!-- <div id="popup" class="popup hidden">
+      <div class="popup-content">
+        <span id="popupClose">×</span>
+        <p id="popupText"></p>
+      </div>
+    </div> -->
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
