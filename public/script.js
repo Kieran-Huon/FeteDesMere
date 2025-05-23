@@ -35,22 +35,22 @@ document.addEventListener('DOMContentLoaded', () => {
   // Répartition souvenirs
   const memories = [
     // 10 images
-    ...Array.from({ length: 10 }, (_, i) => ({
+    ...Array.from({ length: 12 }, (_, i) => ({
       type: 'image',
       src: `images/image${i + 1}.jpg`,
       message: `Souvenir #${i + 1} 📸`
     })),
     // 2 vidéos
-    {
-      type: 'video',
-      src: 'images/video1.mp4',
-      message: 'Un instant magique 🎥'
-    },
-    {
-      type: 'video',
-      src: 'media/video2.mp4',
-      message: 'Un autre moment précieux 🎬'
-    }
+    // {
+    //   type: 'video',
+    //   src: 'images/video1.mp4',
+    //   message: 'Un instant magique 🎥'
+    // },
+    // {
+    //   type: 'video',
+    //   src: 'media/video2.mp4',
+    //   message: 'Un autre moment précieux 🎬'
+    // }
   ];
 
   // Génération des étoiles en cœur
